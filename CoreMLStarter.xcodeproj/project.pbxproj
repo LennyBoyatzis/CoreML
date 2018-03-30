@@ -14,6 +14,7 @@
 		CA780ED1206DF17700434C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA780ECF206DF17700434C5C /* LaunchScreen.storyboard */; };
 		CA780EDC206DF17700434C5C /* CoreMLStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA780EDB206DF17700434C5C /* CoreMLStarterTests.swift */; };
 		CA780EE7206DF17700434C5C /* CoreMLStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA780EE6206DF17700434C5C /* CoreMLStarterUITests.swift */; };
+		CA780EF5206DFCB100434C5C /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA780EF4206DFCB100434C5C /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CA780EE2206DF17700434C5C /* CoreMLStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA780EE6206DF17700434C5C /* CoreMLStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLStarterUITests.swift; sourceTree = "<group>"; };
 		CA780EE8206DF17700434C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA780EF4206DFCB100434C5C /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		CA780EBA206DF17700434C5C = {
 			isa = PBXGroup;
 			children = (
+				CA780EF4206DFCB100434C5C /* Inceptionv3.mlmodel */,
 				CA780EC5206DF17700434C5C /* CoreMLStarter */,
 				CA780EDA206DF17700434C5C /* CoreMLStarterTests */,
 				CA780EE5206DF17700434C5C /* CoreMLStarterUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA780EC9206DF17700434C5C /* ViewController.swift in Sources */,
+				CA780EF5206DFCB100434C5C /* Inceptionv3.mlmodel in Sources */,
 				CA780EC7206DF17700434C5C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
